@@ -1,5 +1,5 @@
 namespace GenerateRandom {
-    open Microsoft.Quanum.Arrays;
+    open Microsoft.Quantum.Arrays;
     open Microsoft.Quantum.Convert;
     
     operation GenerateRandomNumbers(nQubits : Int) : (Result[], Int) {
