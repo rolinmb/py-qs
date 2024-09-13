@@ -1,5 +1,5 @@
 import qsharp
-from Superposition import EntangleQubits
+from Entangle import EntangleQubits
 #n_qubits = 42
 """
 def random_uint_qsharp(nqubits):
