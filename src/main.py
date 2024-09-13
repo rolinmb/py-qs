@@ -1,4 +1,6 @@
 import qsharp
+print(qsharp.get_available_operations())
+qsharp.projects.add("py-qs.qsproj")
 from Entangle import EntangleQubits
 #n_qubits = 42
 """
