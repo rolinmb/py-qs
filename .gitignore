@@ -1,3 +1,4 @@
-src/__pycache__
-src/obj
 obj
+bin
+src/obj
+src/__pycache__
