@@ -2,7 +2,7 @@ namespace Superposition {
 	open Microsoft.Quantum.Intrinsic;
 	open Microsoft.Quantum.Diagnostics;
 	open Microsoft.Quantum.Measurement;
-
+	@EntryPoint()
 	operation EntangleQubits() : (Result, Result) {
 		use (q1, q2) = (Qubit(), Qubit());
 		H(q1);

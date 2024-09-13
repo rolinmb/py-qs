@@ -18,7 +18,7 @@ namespace RandomGen {
     operation GenRandomUint(nQubits : Int) : (Result[], Int) {
         use qubits = Qubit[nQubits];
         ApplyToEach(H, qubits);
-        mutable results = new Result[nQubits];
+        mutable results = [Zero, size = nQubits];
         for idx in 0 .. nQubits - 1 {
             let result = MResetZ(qubits[idx]);
             set results w/= idx <- result;
